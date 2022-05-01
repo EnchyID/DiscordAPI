@@ -1,0 +1,5 @@
+name: DiscordAPI
+main: io\enn3\discordapi\DiscordAPI
+api: 4.0.0
+version: 1.0
+author: EntityN3
