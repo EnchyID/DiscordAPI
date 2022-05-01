@@ -2,9 +2,6 @@
 
 namespace io\enn3\discordapi;
 
-use pocketmine\scheduler\TaskScheduler;
-use io\enn3\discordapi\task\CurlUpdateTask;
-
 class DiscordAPI {
 
     private $url;
@@ -18,7 +15,6 @@ class DiscordAPI {
             exit();
         }
         $this->init();
-        $this->launch();
     }
     
     public function init(){
